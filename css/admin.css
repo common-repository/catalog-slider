@@ -1,0 +1,28 @@
+.form_cs label {
+
+	display: inline-block;
+
+	width: 200px;
+
+	vertical-align: top;
+
+}
+
+.form_cs input[type=text], .form_wpbc textarea, .form_wpbc select {
+
+	width: 200px;
+
+}
+
+.form_cs .name_line {
+	position: relative;
+}
+
+.form_cs .wp-picker-container {
+	display: inline-block;
+}
+
+.cs_sliders_list li > img {
+	max-width: 120px;
+	cursor: move;
+}

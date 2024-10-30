@@ -1,0 +1,50 @@
+.slide_catalog {
+	margin: 0 auto;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+
+.slide_catalog .slide {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 80%;
+	height: 80%;
+	opacity: 0.4;
+	border: 2px solid #888;
+	margin: 2.5% 0 0 calc(10%);
+}
+
+.slide_catalog .slide.current {
+	transition: opacity 1.5s;
+	opacity: 1;
+}
+
+.slide_catalog .slide img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.slide_catalog .slide a {
+	display: flex;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+
+.slide_catalog .slide a[href=""] {
+	cursor: default;
+}
+
+.slide_catalog .slide a span {
+	margin: auto;
+	line-height: normal;
+	vertical-align: middle;
+	display: block;
+	font-size: 60px;
+	text-shadow: 5px 5px 7px #000;
+}
